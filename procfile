@@ -1,0 +1,1 @@
+web: setup.sh && streamlit run CBO_Credit_Risk_Predictor_App.py
