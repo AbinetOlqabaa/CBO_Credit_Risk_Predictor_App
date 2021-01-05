@@ -22,8 +22,6 @@ html_temp = """
 	"""
 st.markdown(html_temp, unsafe_allow_html=True)
 
-df = pd.read_csv("C:\\Users\\User\\Desktop\\ANNchurn\\Credit-Risk-Analyzer-master\\credit_data.csv")
-
 pickle_in = open("Abinet.pkl", "rb")
 classifier = pickle.load(pickle_in)
 
