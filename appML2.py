@@ -214,5 +214,5 @@ if st.button("Credit Customer Services"):
 	st.info("A.Loan Repayment or collection through alternative channels")
 	st.info("B.	Loan statement delivery")
 	st.info("C.	Credit related notifications and advises")
-image = Image.open("AIC_Logo_New.png")
+image = Image.open("LOGO_OR.png")
 st.image(image, caption='AI For National Growth!', use_column_width=True)
