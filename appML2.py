@@ -12,7 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 ####
 
 
-image = Image.open("coop.jpg")
+image = Image.open("CBElogo.jpg")
 st.image(image, caption='Jijjiirama Guddaaf Kan Onnate!', use_column_width=True)
 st.title("CREDIT RISK PREDICTION ")
 html_temp = """
