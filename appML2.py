@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 image = Image.open("CBElogo.jpg")
-st.image(image, caption='Jijjiirama Guddaaf Kan Onnate!', use_column_width=True)
+st.image(image, caption='የሚተማመኑበት ባንክ!', use_column_width=True)
 st.title("CREDIT RISK PREDICTION ")
 html_temp = """
 	<div style="background-color:tomato;padding:10px">
@@ -167,8 +167,8 @@ def main():
 if __name__ == '__main__':
     main()
 
-if st.button("About CBO"):
-    st.info("Cooperative Bank of Oromia is....")
+if st.button("About CBE"):
+    st.info("Comercial Bank of Ethiopia is....")
 
 html_temp3 = """
 <div style="background-color:tomato;padding:10px">
@@ -188,8 +188,8 @@ st.info("H.	Support for customer request related with credit Service")
 st.info("I.	Support for any possible enquiry about new/ordinary credit products")
  
 if st.button("Credit Request Processing"):
-	image = Image.open("LOGO_OR.png")
-	st.image(image, caption='Baankii Uummataa!', use_column_width=True)
+	image = Image.open("CBElogo.png")
+	st.image(image, caption='የሚተማመኑበት ባንክ!', use_column_width=True)
 	st.info("Development to entertain new or existing credit customer loan requests.")
 	st.info("A.	Preliminary screening and assessment")
 	st.info("B.	Credit application")
@@ -199,8 +199,8 @@ if st.button("Credit Request Processing"):
 	st.info("F.	Customer enquiry and appeal or comment")
 
 if st.button("Internal credit processing"):
-	image = Image.open("LOGO_OR.png")
-	st.image(image, caption='Baankii Uummataa!', use_column_width=True)
+	image = Image.open("CBElogo.png")
+	st.image(image, caption='የሚተማመኑበት ባንክ!', use_column_width=True)
 	st.info("A.Document exchange among credit performers automation ")
 	st.info("B.	Loan delivery time(LDT)to each credit performer automation")
 	st.info("C.	Credit analysis and project appraisal process automation")
@@ -209,8 +209,8 @@ if st.button("Internal credit processing"):
 	st.info("F.	 Reference system for credit appraisal and approval.")
 	st.info("G.	Recommend credit worthiness of loan applicant")
 if st.button("Credit Customer Services"):
-	image = Image.open("LOGO_OR.png")
-	st.image(image, caption='Baankii Uummataa!', use_column_width=True)
+	image = Image.open("CBElogo.png")
+	st.image(image, caption='የሚተማመኑበት ባንክ!', use_column_width=True)
 	st.info("A.Loan Repayment or collection through alternative channels")
 	st.info("B.	Loan statement delivery")
 	st.info("C.	Credit related notifications and advises")
